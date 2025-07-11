@@ -97,3 +97,17 @@ InitTestScene*.unity*
 
 # Auto-generated scenes by play mode tests
 /[Aa]ssets/[Ii]nit[Tt]est[Ss]cene*.unity*
+
+
+
+# Builds
+/[Bb]uild/
+/[Bb]uilds*/
+/[Bb]uilgs*/ # Added due to the typo in your folder name "BuilgsTechMiner"
+/Techminer/
+/TechMiner1/
+
+# Compressed files
+*.zip
+*.rar
+*.7z
