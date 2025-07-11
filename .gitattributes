@@ -1,1 +1,53 @@
+# Set the default behavior, in case people don't have core.autocrlf set.
 * text=auto
+
+# Unity-specific overrides
+*.cs text
+*.js text
+*.boo text
+*.shader text
+*.txt text
+*.xml text
+*.yml text
+*.json text
+*.asmdef text
+*.inputactions text
+
+# Denote all files that are truly binary and should not be modified.
+*.asset -text
+*.unity -text
+*.prefab -text
+*.mat -text
+*.anim -text
+*.controller -text
+*.meta -text
+*.jpg -text
+*.jpeg -text
+*.png -text
+*.gif -text
+*.bmp -text
+*.tga -text
+*.tif -text
+*.tiff -text
+*.psd -text
+*.fbx -text
+*.FBX -text
+*.dae -text
+*.obj -text
+*.ma -text
+*.mb -text
+*.3ds -text
+*.max -text
+*.blend -text
+*.wav -text
+*.mp3 -text
+*.ogg -text
+*.aif -text
+*.aiff -text
+*.exr -text
+*.ttf -text
+*.otf -text
+*.dll -text
+*.so -text
+*.bundle -text
+*.pdf -text
